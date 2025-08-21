@@ -1,10 +1,10 @@
 import httpx
 
-from tools.fakers import get_random_email
+from tools.fakers import fake
 
 # Создаем пользователя
 create_user_payload = {
-    "email": get_random_email(),
+    "email": fake.email(),
     "password": "st",
     "lastName": "str",
     "firstName": "stri",
@@ -36,7 +36,7 @@ patch_user_response = httpx.patch(
     f"http://localhost:8000/api/v1/users/{create_user_response_data['user']['id']}",
     headers=get_user_headers,
     json={
-      "email": get_random_email(),
+      "email": fake.email(),
       "lastName": "st",
       "firstName": "str",
       "middleName": "stri"
