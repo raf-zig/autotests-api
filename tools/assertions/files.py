@@ -102,6 +102,12 @@ def assert_file_not_found_response(actual: InternalErrorResponseSchema):
     assert_internal_error_response(actual, expected)
 
 def assert_get_file_with_incorrect_file_id_response(actual: ValidationErrorResponseSchema):
+    """
+        Функция для проверки ошибки, если запрос с некорректным id файла.
+
+        :param actual: Фактический ответ.
+        :raises AssertionError: Если фактический ответ не соответствует ошибке "File not found".
+    """
     expected = ValidationErrorResponseSchema(
         details=[
             ValidationErrorSchema(
