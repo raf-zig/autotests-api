@@ -68,5 +68,10 @@ def assert_update_exercise_response(
     assert_equal(response.exercise.order_index, request.order_index, "order_index")
 
 def assert_exercise_not_found_response(actual: InternalErrorResponseSchema):
+    """
+            Проверяет, что ответ на запрос получения задания содержит внутреннюю ошибку - Exercise not found.
+
+            :param actual: Ответ API
+    """
     expected = InternalErrorResponseSchema(details='Exercise not found')
     assert_internal_error_response(actual, expected)
