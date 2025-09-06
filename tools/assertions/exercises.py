@@ -79,7 +79,7 @@ def assert_exercise_not_found_response(actual: InternalErrorResponseSchema):
 
 def assert_get_exercises_response(
         create_exercise_responses: list[CreateExerciseResponseSchema],
-        get_exercises_response=GetExercisesResponseSchema
+        get_exercises_response: GetExercisesResponseSchema
     ):
     """
         Проверяет, что ответ на получение списка заданий соответствует ответам на их создание.
