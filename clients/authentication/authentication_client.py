@@ -4,7 +4,7 @@ from clients.api_client import APIClient
 # Добавили импорт моделей
 from clients.authentication.authentication_schema import LoginRequestSchema, RefreshRequestSchema, LoginResponseSchema
 from clients.public_http_builder import get_public_http_client
-
+from tools.routes import APIRoutes
 
 # Старые модели с использованием TypedDict были удалены
 
@@ -23,7 +23,7 @@ class AuthenticationClient(APIClient):
         :return: Ответ от сервера в виде объекта httpx.Response
         """
         return self.post(
-            "/api/v1/authentication/login",
+            f"{APIRoutes.AUTHENTICATION}/login",
             # Сериализуем модель в словарь с использованием alias
             json=request.model_dump(by_alias=True)
         )
@@ -38,7 +38,7 @@ class AuthenticationClient(APIClient):
         :return: Ответ от сервера в виде объекта httpx.Response
         """
         return self.post(
-            "/api/v1/authentication/refresh",
+            f"{APIRoutes.AUTHENTICATION}/refresh",
             # Сериализуем модель в словарь с использованием alias
             json=request.model_dump(by_alias=True)
         )
