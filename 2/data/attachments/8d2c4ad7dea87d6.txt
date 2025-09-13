@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEzVDE4OjQ0OjUwLjk4ODMzMiIsInVzZXJfaWQiOiIyYjU2NTA3Yy1iZmYyLTRlZWYtOTVkOS1lZTZlMGUwNDhmZDIifQ.BNYqv_PLmE9kTFg6Ycy3MntrF7BUCRrh81OMVNfo0gY' \
+  -H 'content-length: 450' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Hand explain fly generation describe husband exactly condition.","maxScore":74,"minScore":19,"description":"Usually much student occur available. Then risk one health. Lot along game cover.\nAnswer clearly none reduce talk think crime establish. Summer another well high ago professional two support.","estimatedTime":"8 weeks","previewFileId":"d241d6ab-1e22-4d7c-b0d6-7768093847af","createdByUserId":"2b56507c-bff2-4eef-95d9-ee6e0e048fd2"}'

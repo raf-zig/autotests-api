@@ -1,0 +1,21 @@
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:27 Make PATCH request to http://localhost:8000/api/v1/exercises/4ee45c0f-a617-4c98-9e61-3f6f3f0f20f3
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/exercises/4ee45c0f-a617-4c98-9e61-3f6f3f0f20f3
+INFO     EXERCISES_ASSERTIONS:exercises.py:77 Check update exercise response
+INFO     BASE_ASSERTIONS:base.py:32 Check that "title" equals to Mention admit live reduce maintain.
+INFO     BASE_ASSERTIONS:base.py:32 Check that "max_score" equals to 80
+INFO     BASE_ASSERTIONS:base.py:32 Check that "min_score" equals to 23
+INFO     BASE_ASSERTIONS:base.py:32 Check that "description" equals to Customer site owner news forget bed particularly walk. Write suggest behavior whole article. Low debate among feel imagine.
+INFO     BASE_ASSERTIONS:base.py:32 Check that "estimated_time" equals to 1 weeks
+INFO     BASE_ASSERTIONS:base.py:32 Check that "order_index" equals to 18
+INFO     BASE_ASSERTIONS:base.py:16 Check that response status code equals to 200
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validating JSON schema

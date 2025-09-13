@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEzVDE4OjQ0OjUzLjQxMjg0MCIsInVzZXJfaWQiOiJjNTY3MTBlNy0xZWVmLTRmNWMtYWZiNS0zZTEyYWYyYzczYzYifQ.pPG4hhymOLI8n9Aziuw89SgpwjbTl7Jjgw1lIVxkssM' \
+  -H 'content-length: 370' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Research accept until color.","courseId":"f43880f7-df1f-4c49-aa09-a8168aac0449","maxScore":82,"minScore":13,"orderIndex":32,"description":"Perhaps rather field name cause itself population. Indeed need direction.\nPaper across baby likely. Bring rather remember international buy dinner. Husband little enjoy history magazine glass.","estimatedTime":"7 weeks"}'

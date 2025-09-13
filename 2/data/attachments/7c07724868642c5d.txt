@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/aefb03b8-22bd-4c6f-915a-81b142188f15' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEzVDE4OjQ0OjUwLjcxNTY3NSIsInVzZXJfaWQiOiI2ZjFhMTYyYi0wMWY3LTRkMTMtYTFjZC03NDNjNTk3NjliYjYifQ.Nr6ofm6M1AWCGT_qq-NydlHywWwVq-kJWVZYx_oUgBE' \
+  -H 'content-length: 295' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Adult value bank official detail guy.","maxScore":64,"minScore":22,"description":"Camera item population drug note today. Simple firm college yes over himself. Score important central begin thought break democratic. Dinner every apply hard cover until step.","estimatedTime":"1 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEzVDE4OjQ0OjUzLjQxMjg0MCIsInVzZXJfaWQiOiJjNTY3MTBlNy0xZWVmLTRmNWMtYWZiNS0zZTEyYWYyYzczYzYifQ.pPG4hhymOLI8n9Aziuw89SgpwjbTl7Jjgw1lIVxkssM' \
+  -H 'content-length: 398' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Kitchen reduce hear finish agency floor attention.","maxScore":77,"minScore":14,"description":"Entire hour care spend piece. Control record serve.\nDegree look produce start there administration. Beat add already know home behind. Half send office.","estimatedTime":"7 weeks","previewFileId":"ac2eefe9-6a66-40ad-8f08-a62a26088474","createdByUserId":"c56710e7-1eef-4f5c-afb5-3e12af2c73c6"}'

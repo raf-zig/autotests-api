@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEzVDE4OjQ0OjUzLjE0MDQwMCIsInVzZXJfaWQiOiJjMTY1NGQzNy01ZTY3LTQ2MzEtODE2Yi0wYzFkYWJiMWY2ZjUifQ.zsWSN5OxCFkOIkTpIlHgk_0g4ovPruzkECrbM21gQG0' \
+  -H 'content-length: 394' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Care before because.","maxScore":77,"minScore":9,"description":"Purpose act your about agree foot suggest. Hand training hand alone. Green Mr get couple offer guy me glass. Left respond build benefit talk.\nIndicate wrong paper feel foot enter.","estimatedTime":"9 weeks","previewFileId":"2f59c19e-cb7a-4935-8ad3-3afac1a534c5","createdByUserId":"c1654d37-5e67-4631-816b-0c1dabb1f6f5"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/4ee45c0f-a617-4c98-9e61-3f6f3f0f20f3' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEzVDE4OjQ0OjUyLjIwMjM2MSIsInVzZXJfaWQiOiIyNzlmYmM0Ny05YzdiLTQzN2YtOTI5ZC02MzA0ZmM2NzQ3MjYifQ.tJc2oxdAbrAmCPkFFueRmYUanI8pH_r0QK_VxLJaOe0' \
+  -H 'content-length: 257' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Mention admit live reduce maintain.","maxScore":80,"minScore":23,"orderIndex":18,"description":"Customer site owner news forget bed particularly walk. Write suggest behavior whole article. Low debate among feel imagine.","estimatedTime":"1 weeks"}'

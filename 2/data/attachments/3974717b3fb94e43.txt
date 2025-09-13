@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEzVDE4OjQ0OjU0LjM2NTQ0MiIsInVzZXJfaWQiOiI4NjFiNDA3MS05NDlkLTQxMWQtOTcwZi03ZDQ4YjIzOGQ1NDAifQ.ORMyJCeol41lXCPszmN2wqvEQjI1CvoMpGSLTKSTZXA' \
+  -H 'content-length: 311' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ago I not police push class claim.","courseId":"604126aa-a981-461d-8773-82925bd3c287","maxScore":60,"minScore":12,"orderIndex":24,"description":"Such second fish. Window care protect federal. Measure within ground future appear dinner reduce. Condition very fear less site.","estimatedTime":"8 weeks"}'

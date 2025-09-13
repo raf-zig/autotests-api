@@ -1,0 +1,19 @@
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:16 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:83 Check create course response
+INFO     BASE_ASSERTIONS:base.py:32 Check that "title" equals to Hand explain fly generation describe husband exactly condition.
+INFO     BASE_ASSERTIONS:base.py:32 Check that "max_score" equals to 74
+INFO     BASE_ASSERTIONS:base.py:32 Check that "min_score" equals to 19
+INFO     BASE_ASSERTIONS:base.py:32 Check that "description" equals to Usually much student occur available. Then risk one health. Lot along game cover.
+Answer clearly none reduce talk think crime establish. Summer another well high ago professional two support.
+INFO     BASE_ASSERTIONS:base.py:32 Check that "estimated_time" equals to 8 weeks
+INFO     BASE_ASSERTIONS:base.py:32 Check that "preview_file_id" equals to d241d6ab-1e22-4d7c-b0d6-7768093847af
+INFO     BASE_ASSERTIONS:base.py:32 Check that "created_by_user_id" equals to 2b56507c-bff2-4eef-95d9-ee6e0e048fd2
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validating JSON schema

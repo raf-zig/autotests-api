@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEzVDE4OjQ0OjUyLjIwMjM2MSIsInVzZXJfaWQiOiIyNzlmYmM0Ny05YzdiLTQzN2YtOTI5ZC02MzA0ZmM2NzQ3MjYifQ.tJc2oxdAbrAmCPkFFueRmYUanI8pH_r0QK_VxLJaOe0' \
+  -H 'content-length: 422' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Reality firm himself everyone.","maxScore":94,"minScore":20,"description":"Piece ground evening tough. Character month result tough forget teach.\nFather knowledge forward garden. Bad young beat husband war loss child. Treatment degree institution organization it medical.","estimatedTime":"3 weeks","previewFileId":"8cd1d1c2-eff5-4d59-8ae2-7d0fa7aba258","createdByUserId":"279fbc47-9c7b-437f-929d-6304fc674726"}'

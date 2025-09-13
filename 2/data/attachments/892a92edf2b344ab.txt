@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEzVDE4OjQ0OjUwLjcxNTY3NSIsInVzZXJfaWQiOiI2ZjFhMTYyYi0wMWY3LTRkMTMtYTFjZC03NDNjNTk3NjliYjYifQ.Nr6ofm6M1AWCGT_qq-NydlHywWwVq-kJWVZYx_oUgBE' \
+  -H 'content-length: 352' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Responsibility black war ready rock read.","maxScore":93,"minScore":9,"description":"Ability nation movement fear bad. Prepare think likely question sister support scientist. Contain nor news so travel.","estimatedTime":"9 weeks","previewFileId":"e0f767ff-3095-442e-859f-1583bc60dac1","createdByUserId":"6f1a162b-01f7-4d13-a1cd-743c59769bb6"}'

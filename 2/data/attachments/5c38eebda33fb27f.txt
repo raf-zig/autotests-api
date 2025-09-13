@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEzVDE4OjQ0OjUxLjkyODAzMiIsInVzZXJfaWQiOiI2ZDk4OWIyYy02MzY5LTQyZGYtYjFhYS0yNjNjOGI0YjFkMWQifQ.Rz8JiI1s7PBEnTUHebn8p0bqicf5GtwWorhJE0YzETE' \
+  -H 'content-length: 369' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Camera article pass almost analysis despite.","courseId":"03bc1d02-7d56-478e-aa03-84a103158893","maxScore":93,"minScore":28,"orderIndex":62,"description":"Than ability white table grow. Everything car close water.\nTheir no find population question state high. Carry series coach ever anything. Until ready country hear road deep.","estimatedTime":"10 weeks"}'

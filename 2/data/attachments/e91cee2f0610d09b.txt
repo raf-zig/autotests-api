@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEzVDE4OjQ0OjUyLjIwMjM2MSIsInVzZXJfaWQiOiIyNzlmYmM0Ny05YzdiLTQzN2YtOTI5ZC02MzA0ZmM2NzQ3MjYifQ.tJc2oxdAbrAmCPkFFueRmYUanI8pH_r0QK_VxLJaOe0' \
+  -H 'content-length: 391' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Structure everybody political center light.","courseId":"788ebf08-569e-4938-8c3e-55f88b7a6502","maxScore":67,"minScore":29,"orderIndex":56,"description":"Relationship scene challenge mouth himself from. Collection perform ground new unit future southern.\nHuman indicate center institution current. Candidate nearly who worry within government maintain.","estimatedTime":"9 weeks"}'

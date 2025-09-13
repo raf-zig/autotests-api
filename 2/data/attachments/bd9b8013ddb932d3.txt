@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEzVDE4OjQ0OjU0LjM2NTQ0MiIsInVzZXJfaWQiOiI4NjFiNDA3MS05NDlkLTQxMWQtOTcwZi03ZDQ4YjIzOGQ1NDAifQ.ORMyJCeol41lXCPszmN2wqvEQjI1CvoMpGSLTKSTZXA' \
+  -H 'content-length: 340' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Point individual service theory.","maxScore":56,"minScore":27,"description":"Computer chance grow less wonder reveal. In indeed most serve. Happen attention get agreement million meet skill.","estimatedTime":"1 weeks","previewFileId":"db11e041-fc24-45ff-bc51-21fa75860231","createdByUserId":"861b4071-949d-411d-970f-7d48b238d540"}'
