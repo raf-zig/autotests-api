@@ -56,6 +56,21 @@ jobs:
         run: |
           pytest -m regression --alluredir=allure-results --numprocesses 2  # Запускаем тесты, отмеченные как "regression", генерируем результаты для Allure
 
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: allure-results
+          path: allure-results
+
+  publish-report:
+    needs: run-tests
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download Artifact
+        uses: actions/download-artifact@v5
+        with:
+          name: allure-results
+          path: allure-results
       # 8. Шаг для получения истории отчётов Allure, если она существует
       - name: Get Allure history
         uses: actions/checkout@v4  # Опять клонируем репозиторий, чтобы получить историю отчётов
