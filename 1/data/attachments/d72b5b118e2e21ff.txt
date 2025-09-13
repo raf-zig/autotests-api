@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEzVDE3OjI4OjU0LjU1NjkwNyIsInVzZXJfaWQiOiI1M2NjYTBhZC02YWRmLTQ3ZmQtOGU5My1kYzRiNGNhZjRhYWYifQ.NArzoMUNpMVrfs-Pqogt5szQ-FnY9HX3SxHE39EGHOY' \
+  -H 'content-length: 387' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Soldier network environment college.","maxScore":83,"minScore":1,"description":"Important benefit able. Interest entire along organization process.\nPretty view including sea radio material account. Scene movement guy rock there reality.","estimatedTime":"2 weeks","previewFileId":"c560e3f9-88d3-4823-88d7-18676e02a293","createdByUserId":"53cca0ad-6adf-47fd-8e93-dc4b4caf4aaf"}'

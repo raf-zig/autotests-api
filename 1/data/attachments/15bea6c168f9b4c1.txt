@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/244d537d-dbd5-492d-b58d-58e63f7345ed' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEzVDE3OjI4OjU2LjMxNzIwNSIsInVzZXJfaWQiOiJiZTkwZGRlYy0zYjg2LTRhM2EtODg5YS0yOTVjOTA1MmYyNGIifQ.r7N82baeqKzthHIsWeePwQGiIAJWk-7ffr6P6Q0TJkY' \
+  -H 'content-length: 251' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Home rest garden environment.","maxScore":79,"minScore":6,"orderIndex":33,"description":"Church laugh view would. Free close never voice hot.\nPractice behind board science president little. Surface first benefit.","estimatedTime":"3 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEzVDE3OjI4OjU1LjE1MDAzOCIsInVzZXJfaWQiOiIyYjU2ZjgzNy1kNmMxLTQ3NzctYjFmMC1kNDQ0YWJiMGJlYjIifQ.cX2b12UZg2Hy0IlZSh5zoe_-fZqFBwzwF9Xlz2JnyOw' \
+  -H 'content-length: 404' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Prepare thus effect personal near federal general.","maxScore":89,"minScore":3,"description":"Time magazine beyond car very feeling drive town.\nMouth financial reflect. Room without kitchen over find work social.\nSave bill hit western. Term rise house.","estimatedTime":"8 weeks","previewFileId":"267794f2-b844-4863-a134-ddec4ea186bd","createdByUserId":"2b56f837-d6c1-4777-b1f0-d444abb0beb2"}'

@@ -1,0 +1,25 @@
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:27 Make GET request to http://localhost:8000/api/v1/exercises?courseId=df63f326-5f77-4533-acdd-ceb14b92a949
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/exercises?courseId=df63f326-5f77-4533-acdd-ceb14b92a949
+INFO     BASE_ASSERTIONS:base.py:16 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:110 Check get exercises response
+INFO     BASE_ASSERTIONS:base.py:64 Check that length of "exercises" equals to 1
+INFO     EXERCISES_ASSERTIONS:exercises.py:43 Check exercise
+INFO     BASE_ASSERTIONS:base.py:32 Check that "id" equals to 75a27ca6-718b-4a6b-bf79-bc589f283132
+INFO     BASE_ASSERTIONS:base.py:32 Check that "title" equals to Choose place daughter authority finally keep event lawyer.
+INFO     BASE_ASSERTIONS:base.py:32 Check that "max_score" equals to 83
+INFO     BASE_ASSERTIONS:base.py:32 Check that "min_score" equals to 24
+INFO     BASE_ASSERTIONS:base.py:32 Check that "description" equals to Suggest best policy determine full. Evening field smile stay four skill occur. Soldier court ten author realize entire. May during accept something likely training oil.
+INFO     BASE_ASSERTIONS:base.py:32 Check that "estimated_time" equals to 6 weeks
+INFO     BASE_ASSERTIONS:base.py:32 Check that "course_id" equals to df63f326-5f77-4533-acdd-ceb14b92a949
+INFO     BASE_ASSERTIONS:base.py:32 Check that "order_index" equals to 100
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validating JSON schema

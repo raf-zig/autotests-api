@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEzVDE3OjI4OjU1LjczMjYzNiIsInVzZXJfaWQiOiIxYTRmNDk0Ni1lMTEwLTRmZmYtYTM1My03ZDkyZTI0ZDA3M2EifQ.B5OaZ1VcdKHyh97kKrYPgYjfrzg3aXrW8uXoP3ZKTzQ' \
+  -H 'content-length: 413' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Yard night trip require science everyone young money.","maxScore":82,"minScore":15,"description":"Several stay child response feel. Democrat century compare chance billion.\nRule participant southern response. Modern general statement senior do where opportunity.","estimatedTime":"4 weeks","previewFileId":"ea899bc0-ad00-4bc8-80a4-64a925acc722","createdByUserId":"1a4f4946-e110-4fff-a353-7d92e24d073a"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEzVDE3OjI4OjU3LjU1Mzk0MyIsInVzZXJfaWQiOiI5NjkxOWYzNS0wOTliLTQxOWYtYjlkMi03NDAxMzNkZGM1OTgifQ.SNaxGmBENrFRFJCkQSFRKxE24J6zOYofSeI3kikWttI' \
+  -H 'content-length: 350' \
+  -H 'content-type: application/json' \
+  -d '{"title":"World billion city billion.","maxScore":59,"minScore":24,"description":"Push pay fear bank list. Will seek cold now agent case. Wish system cover bit why push apply. Expert election traditional great.","estimatedTime":"1 weeks","previewFileId":"42476c6c-5466-41ed-890b-1d6f6cbf61b8","createdByUserId":"96919f35-099b-419f-b9d2-740133ddc598"}'

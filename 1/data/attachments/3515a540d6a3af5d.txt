@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEzVDE3OjI4OjUzLjk1NzQ2NCIsInVzZXJfaWQiOiJjNWZiZTBhYS1jOTMxLTQ5YjgtYWQ1ZS1hY2I1MGYxNzU2OWQifQ.tmRe02cd0SyMXPfZgMNkv5HGB8eQEZOihMp820fcC6I' \
+  -H 'content-length: 411' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Short wind if air station.","maxScore":60,"minScore":2,"description":"American author certainly central. Answer animal others situation operation eight. Way surface level simply rest.\nQuality issue others everybody. Magazine choice you development same school.","estimatedTime":"9 weeks","previewFileId":"fc11a9f1-ec32-4ae0-ba02-be065a3768a6","createdByUserId":"c5fbe0aa-c931-49b8-ad5e-acb50f17569d"}'
