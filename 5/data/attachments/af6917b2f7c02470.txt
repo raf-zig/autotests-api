@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTE0VDE3OjIxOjI4LjIyMjEzMCIsInVzZXJfaWQiOiI4NDIxMzgzZS0xZWJkLTRlMzctYmNiMC1kOWVhMTZlNzc0ZGEifQ.rWLF4dX_Ush6pCpsf0IL7ngPIQsV5rRU3e-ctqqcKps' \
+  -H 'content-length: 381' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Mention pattern statement but fly cut although.","maxScore":58,"minScore":6,"description":"Our blood keep sing source require character. Sister energy group a couple yard degree. Appear dog receive federal brother my ball politics.","estimatedTime":"6 weeks","previewFileId":"7d7a042d-dc05-4c6c-b6d4-769df81e6b99","createdByUserId":"8421383e-1ebd-4e37-bcb0-d9ea16e774da"}'

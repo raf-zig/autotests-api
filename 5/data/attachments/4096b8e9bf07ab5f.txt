@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTE0VDE3OjIxOjI4Ljg3NzE5NCIsInVzZXJfaWQiOiJlODAxODA0My1lODU5LTRkODgtYjFiNC0yYzM5ZjNjNDkwZWUifQ.2FYL3tE-LrRnkdXuv9qT5GlrMfosEQ4EOzDnGbYoWi8' \
+  -H 'content-length: 380' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Understand police hundred final.","maxScore":65,"minScore":19,"description":"Happy responsibility international skill act. Task direction kind popular.\nMiddle much for career church may. Production particularly person shake step.","estimatedTime":"9 weeks","previewFileId":"3ab5b391-6e87-44b8-bff0-2ccf66a92b55","createdByUserId":"e8018043-e859-4d88-b1b4-2c39f3c490ee"}'

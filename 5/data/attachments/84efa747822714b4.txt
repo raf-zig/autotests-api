@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTE0VDE3OjIxOjI3LjA1NTEyMyIsInVzZXJfaWQiOiI3YzVmOTQ3OC1hOWIxLTRkZjItYjI5YS0zOTg4OWE5MzRkMjIifQ.tTJrwjmY3RsYzHFtCWgFlF7xWaaJxbZDQXhnTRO3vu0' \
+  -H 'content-length: 378' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Painting few modern.","maxScore":59,"minScore":21,"description":"Loss hand director. Treatment attack ahead in color. Catch establish simple month.\nRelate page song.\nLater quality at reveal son head may ten. Road specific use.","estimatedTime":"8 weeks","previewFileId":"72be65ec-da5b-4084-84e5-fb66022341d1","createdByUserId":"7c5f9478-a9b1-4df2-b29a-39889a934d22"}'

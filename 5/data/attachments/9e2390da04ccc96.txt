@@ -1,0 +1,26 @@
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:27 Make GET request to http://localhost:8000/api/v1/exercises?courseId=da5d52d4-88be-4f49-8e74-7a7bdeef52d3
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/exercises?courseId=da5d52d4-88be-4f49-8e74-7a7bdeef52d3
+INFO     BASE_ASSERTIONS:base.py:16 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:110 Check get exercises response
+INFO     BASE_ASSERTIONS:base.py:64 Check that length of "exercises" equals to 1
+INFO     EXERCISES_ASSERTIONS:exercises.py:43 Check exercise
+INFO     BASE_ASSERTIONS:base.py:32 Check that "id" equals to 2f755fec-6a57-4141-a58a-059c22c08f7b
+INFO     BASE_ASSERTIONS:base.py:32 Check that "title" equals to Bit everyone stand available magazine task.
+INFO     BASE_ASSERTIONS:base.py:32 Check that "max_score" equals to 89
+INFO     BASE_ASSERTIONS:base.py:32 Check that "min_score" equals to 30
+INFO     BASE_ASSERTIONS:base.py:32 Check that "description" equals to High want but whom. Eye former stuff late general thousand. Us team eat hot market check.
+Capital early upon maybe administration mind. Information yourself find candidate line director analysis.
+INFO     BASE_ASSERTIONS:base.py:32 Check that "estimated_time" equals to 7 weeks
+INFO     BASE_ASSERTIONS:base.py:32 Check that "course_id" equals to da5d52d4-88be-4f49-8e74-7a7bdeef52d3
+INFO     BASE_ASSERTIONS:base.py:32 Check that "order_index" equals to 12
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validating JSON schema

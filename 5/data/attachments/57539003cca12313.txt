@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTE0VDE3OjIxOjI3LjY0MTI5MiIsInVzZXJfaWQiOiJlMzE5MDZmOC1kNzFiLTRkMmEtOTM4Mi1kODA5NTgyZTYxYzYifQ.d3cYIXFsQ6SbNuYgqs3-647V4kkb6xErxBNXGakVH-k' \
+  -H 'content-length: 417' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Five writer hospital fall.","maxScore":56,"minScore":15,"description":"Hold everyone describe political practice. Study tend evening since bank part argue but. Treatment data remember cover offer.\nPerhaps either benefit politics so. Drug his concern keep west agree.","estimatedTime":"4 weeks","previewFileId":"1f5e7611-8e13-426b-8617-1c2b5e3fa447","createdByUserId":"e31906f8-d71b-4d2a-9382-d809582e61c6"}'

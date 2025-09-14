@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTE0VDE3OjIxOjMwLjE0Mzg3NCIsInVzZXJfaWQiOiI1Njc3N2M4NS1lYjNjLTRkNGQtODA4ZS1mN2VkYWQyMjY5MmIifQ.4sOSqVuB7eaRhAAh6m5McoXLdARtH0lfZS-mZ-u3nzY' \
+  -H 'content-length: 311' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Consider staff benefit according either same.","maxScore":62,"minScore":14,"description":"South voice main letter skill. Young main young. Risk as personal away.","estimatedTime":"8 weeks","previewFileId":"37766252-bf38-4df1-a88f-4dd4b9c14757","createdByUserId":"56777c85-eb3c-4d4d-808e-f7edad22692b"}'

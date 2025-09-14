@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/18ee809d-9609-48f7-a3af-91f2e0956140' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTE0VDE3OjIxOjI2LjM5MzE5MiIsInVzZXJfaWQiOiJjNGM1YjQwZC01M2Y1LTQ1MzAtYjkwNS0xOWI4YjJkNzNlMjcifQ.78z_9hSoq48Wum1I9bGTq9KIEmLtyy_ieKRsc-RFLwU' \
+  -H 'content-length: 241' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Pm fall lot class skill.","maxScore":76,"minScore":20,"description":"Politics call town. Teach after third medical.\nStart with age picture. Model else right. Ability strategy way wonder mother Congress.","estimatedTime":"9 weeks"}'

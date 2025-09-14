@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTE0VDE3OjIxOjI5LjQ1OTUzNSIsInVzZXJfaWQiOiI4NWQxYTNlNC1iYzU5LTRmOTgtODRlYi0xNTVhN2IwZWY3YjIifQ.OD18wCjs4zRLg33Nx6FvqJw7hNe7J4ttHyIjPPLPszE' \
+  -H 'content-length: 380' \
+  -H 'content-type: application/json' \
+  -d '{"title":"She big might hour water.","maxScore":73,"minScore":11,"description":"World drive factor mind parent carry letter. Leg apply image window lose idea century no.\nSee dark describe view red. Thousand air first exactly mention score.","estimatedTime":"1 weeks","previewFileId":"5f463b1f-d248-4aa1-8fe6-31b24b6305f4","createdByUserId":"85d1a3e4-bc59-4f98-84eb-155a7b0ef7b2"}'
