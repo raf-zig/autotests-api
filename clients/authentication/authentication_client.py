@@ -1,6 +1,7 @@
 from httpx import Response
 import allure
 from clients.api_client import APIClient
+from clients.api_coverage import tracker
 # Добавили импорт моделей
 from clients.authentication.authentication_schema import LoginRequestSchema, RefreshRequestSchema, LoginResponseSchema
 from clients.public_http_builder import get_public_http_client
@@ -14,7 +15,7 @@ class AuthenticationClient(APIClient):
     """
 
     @allure.step("Authenticate user")
-    # Теперь используем pydantic-модель для аннотации
+    @tracker.track_coverage_httpx(f"{APIRoutes.AUTHENTICATION}/login")
     def login_api(self, request: LoginRequestSchema) -> Response:
         """
         Метод выполняет аутентификацию пользователя.
@@ -29,7 +30,7 @@ class AuthenticationClient(APIClient):
         )
 
     @allure.step("Refresh authentication token")
-    # Теперь используем pydantic-модель для аннотации
+    @tracker.track_coverage_httpx(f"{APIRoutes.AUTHENTICATION}/refresh")
     def refresh_api(self, request: RefreshRequestSchema) -> Response:
         """
         Метод обновляет токен авторизации.
