@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTE0VDE1OjUwOjAxLjI5ODc5NSIsInVzZXJfaWQiOiJkZDk1OGRhZS1kMzU1LTRkMTQtYThjMS0xNDE3MmI5NmNmOTMifQ.uAfGToLlAe-VpmyHqNfw9vVztVNZixiaHdaBguPHjDw' \
+  -H 'content-length: 410' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Mouth join better south add always budget.","maxScore":96,"minScore":5,"description":"Consider add other identify. Create second affect foreign together interesting.\nEight law feel possible who. Pick strategy respond point. Law since back fly letter cost buy.","estimatedTime":"8 weeks","previewFileId":"ca388247-5bc5-42d2-9bf5-9f26d73456a4","createdByUserId":"dd958dae-d355-4d14-a8c1-14172b96cf93"}'

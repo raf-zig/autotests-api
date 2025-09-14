@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTE0VDE1OjUwOjAwLjEzMDg3MSIsInVzZXJfaWQiOiJmMzEwYWRhYS0xZmJmLTQxNGYtYjk1Zi1lOTZlODBiZWQwODIifQ.GLDyrSbx9iwRTTriEewikEIbbZQSAmx5YI_AH-EFGkA' \
+  -H 'content-length: 429' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Start organization better serve front present generation.","maxScore":90,"minScore":8,"description":"True conference spend rate these stock. Maintain recent production industry miss people task leg.\nAlone place capital design. Huge outside miss determine case hospital positive.","estimatedTime":"5 weeks","previewFileId":"2c44492f-7da5-4837-989a-692820bfd16c","createdByUserId":"f310adaa-1fbf-414f-b95f-e96e80bed082"}'

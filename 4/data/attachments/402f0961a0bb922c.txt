@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTE0VDE1OjUwOjAwLjcxMTk3NSIsInVzZXJfaWQiOiIxZjZiNmJlYi1kYjRlLTRlNjQtYWUxZi1jMDZhODYyMjFhNjcifQ.KkPtAB_EDaKNSBpQFqLhMAfL_Z7JW7OprBQz87CF97c' \
+  -H 'content-length: 342' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Each step fly another a wish fight order.","maxScore":100,"minScore":14,"description":"Better size course on.\nUs break walk into few many word this. High produce floor note suggest size rule.","estimatedTime":"2 weeks","previewFileId":"fa985094-2c90-4800-b640-a3cc3d5bce51","createdByUserId":"1f6b6beb-db4e-4e64-ae1f-c06a86221a67"}'

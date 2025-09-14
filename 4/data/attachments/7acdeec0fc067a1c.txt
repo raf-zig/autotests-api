@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTE0VDE1OjUwOjAyLjU2MTE2OSIsInVzZXJfaWQiOiJmYWViZGQ5Yi0zNzlkLTRiY2ItOTQzMy0wY2FkNTYxZWI1MTgifQ.UGjruaSbZK4L6JR-cWGqCqxX4_zG6nrzBbGvq_jqpFE' \
+  -H 'content-length: 412' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Know continue everyone remain.","maxScore":91,"minScore":26,"description":"Spend plan reason prepare effect individual relate. Interview lawyer would today toward senior.\nProtect which try that challenge. Itself when fast great. Program allow explain nice fund.","estimatedTime":"1 weeks","previewFileId":"782a1fda-9015-43d1-8cc5-69eb534c551e","createdByUserId":"faebdd9b-379d-4bcb-9433-0cad561eb518"}'

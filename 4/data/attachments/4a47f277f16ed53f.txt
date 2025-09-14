@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTE0VDE1OjQ5OjU5LjQ0ODU5MSIsInVzZXJfaWQiOiIwM2RkZTc2NC02ZGI5LTQ1MmYtODhiYS1iNTFhMzhlYmM3MDIifQ.Wa1v5NDP-j9AOH1DxPMDflFDkSQCEGwlchvJ0R6V4CI' \
+  -H 'content-length: 435' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Everything international keep office management military learn.","maxScore":90,"minScore":17,"description":"Would game real someone. Manager eight learn I capital.\nBest establish nice write reality. Can professional receive few rather director ability. Not chance truth staff company.","estimatedTime":"3 weeks","previewFileId":"02d0d665-c4ba-4828-a8e1-f93f06584f78","createdByUserId":"03dde764-6db9-452f-88ba-b51a38ebc702"}'

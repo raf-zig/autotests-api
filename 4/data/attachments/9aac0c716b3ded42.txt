@@ -1,0 +1,26 @@
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:27 Make GET request to http://localhost:8000/api/v1/exercises?courseId=d0128986-82f9-4e9f-8f44-cdae1448f37d
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/exercises?courseId=d0128986-82f9-4e9f-8f44-cdae1448f37d
+INFO     BASE_ASSERTIONS:base.py:16 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:110 Check get exercises response
+INFO     BASE_ASSERTIONS:base.py:64 Check that length of "exercises" equals to 1
+INFO     EXERCISES_ASSERTIONS:exercises.py:43 Check exercise
+INFO     BASE_ASSERTIONS:base.py:32 Check that "id" equals to d2d71a08-dd0d-471e-bbd5-c9d2dceccaa6
+INFO     BASE_ASSERTIONS:base.py:32 Check that "title" equals to Threat citizen sea involve guess not teach lose.
+INFO     BASE_ASSERTIONS:base.py:32 Check that "max_score" equals to 51
+INFO     BASE_ASSERTIONS:base.py:32 Check that "min_score" equals to 12
+INFO     BASE_ASSERTIONS:base.py:32 Check that "description" equals to Carry work light weight.
+Attack always theory instead however yet change. Surface question such sense first. First into help firm case away what.
+INFO     BASE_ASSERTIONS:base.py:32 Check that "estimated_time" equals to 2 weeks
+INFO     BASE_ASSERTIONS:base.py:32 Check that "course_id" equals to d0128986-82f9-4e9f-8f44-cdae1448f37d
+INFO     BASE_ASSERTIONS:base.py:32 Check that "order_index" equals to 37
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validating JSON schema

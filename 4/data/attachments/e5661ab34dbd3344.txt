@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTE0VDE1OjUwOjAxLjg3ODAwOSIsInVzZXJfaWQiOiIwODNjNzg0Yi1jOGIyLTQwNWYtYmY4Ni01MTlkODIwMDE5NmMifQ.ejSgZzK7jxcZ1A7EpLKx6RinkbZWchNFJvpaRC9q58E' \
+  -H 'content-length: 316' \
+  -H 'content-type: application/json' \
+  -d '{"title":"So collection read well sport customer number.","maxScore":91,"minScore":4,"description":"Fly behind step head. Treat impact account half oil. Affect main range card.","estimatedTime":"6 weeks","previewFileId":"a8108e90-37cb-4db1-91da-40aa4224d186","createdByUserId":"083c784b-c8b2-405f-bf86-519d8200196c"}'

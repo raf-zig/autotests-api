@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/f6264f5e-7829-40f6-b314-a088a99f05c1' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTE0VDE1OjQ5OjU5LjQ0ODU5MSIsInVzZXJfaWQiOiIwM2RkZTc2NC02ZGI5LTQ1MmYtODhiYS1iNTFhMzhlYmM3MDIifQ.Wa1v5NDP-j9AOH1DxPMDflFDkSQCEGwlchvJ0R6V4CI' \
+  -H 'content-length: 225' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Former true plant eight.","maxScore":78,"minScore":24,"description":"Billion style from training house. Reduce clear or wife box they model.\nPopular many statement service itself season.","estimatedTime":"8 weeks"}'

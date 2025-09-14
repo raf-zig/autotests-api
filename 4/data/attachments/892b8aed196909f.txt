@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTE0VDE1OjUwOjAzLjE0NTAzNCIsInVzZXJfaWQiOiJiZGJiMTU5Yi05ZDEzLTRmODktOGY5Ni01YjBkNGI2MzI5NjAifQ.uahflJUa9iykqX5rhG7nLeQffbB6BGvcYWzx9kA9QnI' \
+  -H 'content-length: 300' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Minute financial notice space.","maxScore":86,"minScore":15,"description":"Through piece speech season within federal cup. Three source girl teacher.","estimatedTime":"10 weeks","previewFileId":"a19f51f2-6523-4c92-a640-2092c566c656","createdByUserId":"bdbb159b-9d13-4f89-8f96-5b0d4b632960"}'
