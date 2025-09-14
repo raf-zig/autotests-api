@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/f13b0733-db6e-46c4-8d20-10a9e476d907' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTE0VDE1OjM4OjI1LjU1NzAxNyIsInVzZXJfaWQiOiIwZjdmNGNmMS1lN2U3LTQzMzctODc4My0yNWFhNzA2Yzc2M2MifQ.6KTBRk5DDjCzpYks05eMd6U4slrqvHaGeXjIp6QkvJE' \
+  -H 'content-length: 265' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Blood leg affect claim sound world.","maxScore":50,"minScore":15,"description":"Born avoid know amount politics great owner. Mrs treatment necessary with policy. Professor doctor life hour agent. Kitchen toward sure good fight.","estimatedTime":"1 weeks"}'

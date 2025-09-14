@@ -1,0 +1,26 @@
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:27 Make GET request to http://localhost:8000/api/v1/exercises?courseId=0917de14-bd15-4aef-aa73-adb46cd0de10
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/exercises?courseId=0917de14-bd15-4aef-aa73-adb46cd0de10
+INFO     BASE_ASSERTIONS:base.py:16 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:110 Check get exercises response
+INFO     BASE_ASSERTIONS:base.py:64 Check that length of "exercises" equals to 1
+INFO     EXERCISES_ASSERTIONS:exercises.py:43 Check exercise
+INFO     BASE_ASSERTIONS:base.py:32 Check that "id" equals to c5ef2990-4836-48de-93fa-ee74e84457a2
+INFO     BASE_ASSERTIONS:base.py:32 Check that "title" equals to Week generation like fish from.
+INFO     BASE_ASSERTIONS:base.py:32 Check that "max_score" equals to 54
+INFO     BASE_ASSERTIONS:base.py:32 Check that "min_score" equals to 3
+INFO     BASE_ASSERTIONS:base.py:32 Check that "description" equals to Prevent democratic race send charge impact. Strategy husband their less fight accept paper.
+Town economic another huge doctor. Either bag new ask body event believe low.
+INFO     BASE_ASSERTIONS:base.py:32 Check that "estimated_time" equals to 7 weeks
+INFO     BASE_ASSERTIONS:base.py:32 Check that "course_id" equals to 0917de14-bd15-4aef-aa73-adb46cd0de10
+INFO     BASE_ASSERTIONS:base.py:32 Check that "order_index" equals to 72
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validating JSON schema

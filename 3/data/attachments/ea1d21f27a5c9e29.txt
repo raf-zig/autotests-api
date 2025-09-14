@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTE0VDE1OjM4OjI3LjMzMjYzMyIsInVzZXJfaWQiOiIzYTgxMzRlMC04ODIxLTQwZjItOTcwMS0zYjY3MzZmN2QwM2MifQ.Ckb4RTSI1dOLwHdLzCDG6rfC0JiD1Mp2-ItQGj3IAo8' \
+  -H 'content-length: 345' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Next catch deep soldier read trade.","courseId":"8482ac16-d960-4776-9930-8045f1e1c3b2","maxScore":97,"minScore":25,"orderIndex":91,"description":"Cause although yard as another letter tonight. Simply world pressure authority five. Where explain either administration stop product.\nCompare protect bit like.","estimatedTime":"9 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTE0VDE1OjM4OjI4LjI2NTcwNSIsInVzZXJfaWQiOiJjZWViMjU4Yi01YzNjLTRiMDEtOWIyNy01MjRmZGQ5OGQ1NzgifQ.b472Jet_BfSnZjghzZRUT5GnKOACleWv2S62Zq-aSpw' \
+  -H 'content-length: 412' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Network area style receive down situation heavy.","maxScore":76,"minScore":12,"description":"Computer against whole. Today anything institution rest create meeting machine. Foot sell Mrs understand.\nBring kind section pass. Because end store explain enjoy wish.","estimatedTime":"2 weeks","previewFileId":"2e40e2a0-33ee-4fd2-99f0-ca1614410cf8","createdByUserId":"ceeb258b-5c3c-4b01-9b27-524fdd98d578"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTE0VDE1OjM4OjI0LjY1OTg1OCIsInVzZXJfaWQiOiIwZjRkZDgyNi0wMjhlLTQwMDEtYTVkYy0xYWY0MWJlMGVlNWQifQ.q5Pwtmb3Ef2E8GcBxylsVDucrLLOOoNY9VNY4ZLuXuE' \
+  -H 'content-length: 420' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Use throughout grow region executive customer attorney.","maxScore":67,"minScore":11,"description":"Culture seem dream forget commercial school collection. Green audience at hope draw. Card apply chair movie yet.\nWide hold from save level. Compare today TV apply alone.","estimatedTime":"6 weeks","previewFileId":"79e7a61e-a108-44d7-ade2-57fcec2837cf","createdByUserId":"0f4dd826-028e-4001-a5dc-1af41be0ee5d"}'

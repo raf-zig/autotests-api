@@ -1,0 +1,21 @@
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     BASE_ASSERTIONS:base.py:16 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:24 Check create exercise response
+INFO     BASE_ASSERTIONS:base.py:32 Check that "title" equals to Support despite compare only image team.
+INFO     BASE_ASSERTIONS:base.py:32 Check that "max_score" equals to 69
+INFO     BASE_ASSERTIONS:base.py:32 Check that "min_score" equals to 20
+INFO     BASE_ASSERTIONS:base.py:32 Check that "description" equals to Dream civil year. Far number still boy interview. Although set risk morning happen city.
+Production capital nice day might watch everybody. Blue million price during high. Sense form final standard.
+INFO     BASE_ASSERTIONS:base.py:32 Check that "estimated_time" equals to 4 weeks
+INFO     BASE_ASSERTIONS:base.py:32 Check that "course_id" equals to 99b7ccc6-03fd-4d2d-bfbb-878b4a8f8baf
+INFO     BASE_ASSERTIONS:base.py:32 Check that "order_index" equals to 56
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validating JSON schema

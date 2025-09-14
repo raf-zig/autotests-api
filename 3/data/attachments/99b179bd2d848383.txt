@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTE0VDE1OjM4OjI4LjU0MDM4NSIsInVzZXJfaWQiOiI3ODdlNmZlZS04MDRhLTQ3ZGMtYWUxZC1lZjUzMWUwNjcyOWYifQ.xT-3Wyqm5SrBeW_-Fx5tqXEjfHSord7ow9Xa8RFewQg' \
+  -H 'content-length: 306' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Hand candidate significant look skill speak staff it.","courseId":"c4130150-0430-4e91-aa50-f15896379f37","maxScore":80,"minScore":13,"orderIndex":67,"description":"Simply agreement space. Firm health sit a green thus. Tonight everything once tell wide seat war energy.","estimatedTime":"3 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTE0VDE1OjM4OjI3LjMzMjYzMyIsInVzZXJfaWQiOiIzYTgxMzRlMC04ODIxLTQwZjItOTcwMS0zYjY3MzZmN2QwM2MifQ.Ckb4RTSI1dOLwHdLzCDG6rfC0JiD1Mp2-ItQGj3IAo8' \
+  -H 'content-length: 323' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Alone ball fear owner name consider step cold.","maxScore":63,"minScore":1,"description":"Always hear animal choose still. System pay teach might. Star floor step tell read.","estimatedTime":"1 weeks","previewFileId":"16afe049-1cfb-4960-83b8-cc67927cf21f","createdByUserId":"3a8134e0-8821-40f2-9701-3b6736f7d03c"}'

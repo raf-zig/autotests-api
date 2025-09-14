@@ -1,0 +1,18 @@
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:16 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:83 Check create course response
+INFO     BASE_ASSERTIONS:base.py:32 Check that "title" equals to Direction material major nice.
+INFO     BASE_ASSERTIONS:base.py:32 Check that "max_score" equals to 92
+INFO     BASE_ASSERTIONS:base.py:32 Check that "min_score" equals to 24
+INFO     BASE_ASSERTIONS:base.py:32 Check that "description" equals to Begin society memory public. Air rise natural tax down manage. Front whose wrong attack. They and billion heavy.
+INFO     BASE_ASSERTIONS:base.py:32 Check that "estimated_time" equals to 1 weeks
+INFO     BASE_ASSERTIONS:base.py:32 Check that "preview_file_id" equals to 104244a4-1866-412b-b067-5bb7bea9edb5
+INFO     BASE_ASSERTIONS:base.py:32 Check that "created_by_user_id" equals to 40c42f0e-c1d5-4ba5-be6b-f59cac3a7c53
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validating JSON schema

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTE0VDE1OjM4OjI2LjE0Njc2NyIsInVzZXJfaWQiOiI0MGM0MmYwZS1jMWQ1LTRiYTUtYmU2Yi1mNTljYWMzYTdjNTMifQ.MknG6qnc7tYesHdjpx4r1ll3v0yFkmotePrgcP6OBwI' \
+  -H 'content-length: 337' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Direction material major nice.","maxScore":92,"minScore":24,"description":"Begin society memory public. Air rise natural tax down manage. Front whose wrong attack. They and billion heavy.","estimatedTime":"1 weeks","previewFileId":"104244a4-1866-412b-b067-5bb7bea9edb5","createdByUserId":"40c42f0e-c1d5-4ba5-be6b-f59cac3a7c53"}'
